@@ -1,0 +1,478 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+   font-family: Raleway, sans-serif;
+}
+nav{
+   width: 85%;
+   margin: auto;
+
+   padding: 20px;
+   justify-content: space-between;
+   display: flex;
+   align-items: center;
+ 
+}
+nav .bars {
+   font-size: 25px;
+   display: none;
+}
+nav .bars {
+   
+   display: none;
+}
+
+nav ul{
+   
+   list-style-type: none;
+   overflow: auto; 
+   display: flex;
+}
+
+nav ul li{
+   
+   padding: 10px;
+   font-size: 16px;
+   margin: 5px 10px;
+   
+}
+nav ul li a {
+   text-decoration: none;
+   color: #6a7489;
+}
+
+.GetStarted{
+   font-size: 14px;
+   padding: 10px 25px;
+   border: 1px solid rgb(176, 176, 176);
+   border-radius: 4px;
+   margin-left: 30px;
+}
+
+nav ul li.logo{
+   
+   margin-top: 0px;
+   margin-bottom: 0px;
+   & img{
+      width: 175px;
+   }
+   position: absolute;
+   right: 7%;
+}
+
+nav ul li a:hover {
+   color: rgb(131, 180, 226);
+  
+}
+nav ul li .GetStarted a:hover {
+   color: rgb(255, 255, 255);
+  
+}
+.GetStarted:hover {
+   background-color: rgb(15, 42, 195);
+
+}
+
+
+
+
+
+
+
+/*main*/
+
+
+
+/*     sectionv 1      */
+
+#section1 .row{
+   justify-content: space-between;
+   margin: auto;
+   display: flex;
+   width: 85%;
+   padding: 10px;
+   margin: 100px;
+}
+
+#section1 .paragraph{
+   font-size: xx-large;
+   margin: 0px;
+   width: 50%;
+   direction: rtl;
+   text-align: right;
+   
+}
+
+#section1 .paragraph p{
+   color: #858ea1;
+    margin: 10px 0 30px 0;
+    font-size: 24px;
+
+}
+
+#section1 .paragraph h1{
+   color: #3e4450;
+}
+
+#section1 .paragraph a{
+      font-size: 25px;
+      text-decoration: none;
+      padding: 10px 25px;
+      border: 1px solid rgb(255, 255, 255);
+      color: rgb(248, 248, 248);
+      background-color: #6488d5;
+      border-radius: 6px;
+      margin-left: 30px;
+   
+}
+
+#section1 .SigmaImg{
+   margin-left: 200px;
+   animation-name: move;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-delay: 2s;
+}
+
+
+/*    section 2      */
+
+#section2 .row{
+   justify-content: space-between;
+   padding: 10px;
+   margin: 100px;
+   display: flex;
+   margin: auto;
+   
+   width: 85%;
+   
+   
+}
+
+#section2 .row .paragraph2{
+   width: calc(85%/2);
+   display: flex;
+   font-size: 17px;
+   
+   background-color:  rgb(243, 243, 243);
+   
+   margin-left: 30px;
+
+   width: 50%;
+   direction: rtl;
+   text-align: right;
+   color: #6a7489;
+   padding: 10px;
+}
+
+#section2 .row .paragraph2 i{
+   color: #01b8dc;
+   font-size: 36px;
+   margin: 30px 0px 30px 30px;
+}
+
+#section2 .row .paragraph2 h2{
+
+   margin: 10px 0px 10px 10px;
+}
+
+
+
+/*       section 3             */
+
+
+
+#section3 .row{
+   justify-content: space-between;
+   margin: auto;
+   display: flex;
+   width: 85%;
+   height: 80%;
+   padding: 10px;
+   margin: 100px;
+}
+
+#section3 .paragraph{
+   width: calc(85%/2);
+ 
+   font-size: 17px;
+   
+   
+   
+   margin-left: 30px;
+
+   width: 50%;
+   direction: rtl;
+   text-align: right;
+   color: #6a7489;
+   padding: 10px;
+
+
+   
+}
+
+#section3 .paragraph p{
+   
+    margin: 10px 0 30px 0;
+    font-size: 20px;
+
+}
+
+#section3 .paragraph h1{
+   color: #3e4450;
+}
+
+.aboutimg{
+
+   float: right;
+   width: 90%;
+
+}
+
+
+
+
+
+
+
+/*       section 4           */
+
+
+#section4 .container{
+   background-color: #eeeeee;
+   
+   
+
+}
+
+#section4 .container .khadmat{
+   text-align: center;
+   font-size: 15px;
+   padding: 50px;
+   & p{
+      padding-top: 30px;
+   }
+}
+
+#section4 .container .miniimgs {
+   justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.sedndhelp{
+   background-color: #f7f7f7;
+   margin: 5px;
+   width: clac(75%/4);
+   width: 350px;
+   text-align: center;
+   padding: 20px;
+}
+
+#section4 .container .miniimgs .sedndhelp i{
+   color: #01b8dc;
+   font-size: 36px;
+   margin: 30px 0px 30px 30px;
+   
+}
+
+
+
+
+#footer{
+   background-color: #eeeeee;
+   justify-content: center;
+   
+}
+#footer h1{
+   
+   text-align: center;
+   padding: 80px 0px 0px 50px;
+   color: #5f6572;
+   font-size: xx-large;
+   font-weight: 800;
+   
+}
+
+#footer .socialIcons{
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+   
+}
+
+#footer .socialIcons a{
+   font-size: x-large;
+   color: #5f6572;
+   padding: 10px;
+
+
+}
+
+#footer .socialIcons i{
+   padding: 4px;
+   background-color: #dedede;
+   border-radius: 3px;
+}
+hr {
+   
+   width: 80%;
+   margin: auto;
+ }
+
+ #footer .bottom p{
+   text-align: center;
+   color: #5f6572;
+   padding: 50px;
+ }
+
+
+
+ /*respoooonsiiiiveeee*/
+
+ @media (max-width: 992px) {
+ nav .bars {
+    
+    display: block;
+ }
+ nav ul li{
+   display: none;
+ }
+ .logo{
+   display: block;
+ }
+ #section1 .row{
+   justify-content: center;
+   
+   }
+   #section1 .SigmaImg{
+      margin-left: 10px;
+   }
+
+   #section1 .paragraph{
+
+        width: 50%;
+        height: 100px;
+        
+     }
+
+     #section3 .row{
+      justify-content:center;
+      height: auto;
+      
+      }
+      
+      #section3 .paragraph{
+         width: 75%;
+         height: 400px;
+         position: absolute;
+         
+         overflow: scroll;
+         color: #6a7489;
+      }
+      #section3 .paragraph p{
+         font-size: 25px;
+
+
+      }
+
+      .aboutimg{
+         opacity: 0.3;
+      }
+            
+    
+ }
+ @media (max-width: 715px){
+   #section1 .SigmaImg{
+     display: none;
+   }
+   #section1 .row{
+      
+      padding-bottom: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+   #section1 .row .paragraph{
+      padding-top: 50px;
+   }
+
+   #section2 {
+     padding-top: 100px;
+     width: 100%;
+      justify-content: center;
+   }
+   #section2 .row {
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  #section2 .paragraph2 {
+      
+      margin-bottom: 20px;
+      
+  }
+
+  #section3 {
+  justify-content: center;
+  }
+  #section3 .row{
+   width: 60%;
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   padding-bottom: 50px;
+   }
+   
+   #section3 .paragraph{
+      width: 50%;
+      height: 400px;
+      position: absolute;
+      color: #000000;
+      overflow: scroll;
+      color: #6a7489;
+      
+   }
+   #section3 .paragraph p{
+      font-size: 15px;
+
+
+   }
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes move{
+   0% {
+      transform: translateY(0px);
+   }
+   50%{
+      transform: translateY(10px);
+   }
+   100%{
+      transform: translateY(0px);
+   }
+}
